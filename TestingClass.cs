@@ -33,7 +33,10 @@ namespace Smoking_Gun
             string url = _baseUrl + ConfigurationManager.AppSettings["webPage"];
             _driver.Navigate().GoToUrl(_baseUrl + "/OpsCenter/SourceConsole.aspx");
             IWebElement table = _driver.FindElement(By.CssSelector("table.specialClass"));
-            List<SourceConsole> listSourceConsole = table.FindElements(By.CssSelector("tr")).Select(row => new SourceConsole(row)).Where(sourceConsole => sourceConsole.IsInvalidRow()).ToList();
+            List<SourceConsole> listSourceConsole = table.FindElements(By.CssSelector("tr"))
+                                                    .Select(row => new SourceConsole(row))
+                                                    .Where(sourceConsole => sourceConsole.IsInvalidRow())
+                                                    .ToList();
             PrintInvalidRows(listSourceConsole);
             Assert.AreEqual(0, listSourceConsole.Count);
         }
@@ -44,10 +47,14 @@ namespace Smoking_Gun
             string url = _baseUrl + ConfigurationManager.AppSettings["webPage"];
             List<SourceConsole> listSourceConsole = new List<SourceConsole>();
             _driver.Navigate().GoToUrl(_baseUrl + "/OpsCenter/SourceConsole.aspx");
-            IReadOnlyCollection<IWebElement> tables = _driver.FindElements(By.CssSelector("table"));
-            foreach (ReadOnlyCollection<IWebElement> rows in from table in tables where table.GetAttribute("id").Contains("SourceGrid") select table.FindElements(By.CssSelector("tr")))
+            IReadOnlyCollection<IWebElement> tables = _driver.FindElements(By.Id("table"));
+            foreach (ReadOnlyCollection<IWebElement> rows in from table in tables 
+                                                             where table.GetAttribute("id").Contains("SourceGrid") 
+                                                             select table.FindElements(By.CssSelector("tr")))
             {
-                listSourceConsole.AddRange(rows.Select(row => new SourceConsole(row)).Where(sourceConsole => sourceConsole.IsInvalidRow()));
+                listSourceConsole.AddRange(rows
+                                            .Select(row => new SourceConsole(row))
+                                            .Where(sourceConsole => sourceConsole.IsInvalidRow()));
             }
             PrintInvalidRows(listSourceConsole);
             Assert.AreEqual(0, listSourceConsole.Count);
