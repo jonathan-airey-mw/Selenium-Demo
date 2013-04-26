@@ -1,0 +1,13 @@
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\Smoking_Gun.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\Smoking_Gun.pdb
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\nunit.framework.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\WebDriver.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\WebDriver.Support.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.csprojResolveAssemblyReference.cache
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.dll
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.pdb
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.Properties.Resources.resources
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.csproj.GenerateResource.Cache
+C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\Smoking_Gun.dll.config
