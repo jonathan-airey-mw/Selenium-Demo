@@ -14,7 +14,6 @@ namespace Smoking_Gun
         private IWebDriver _driver;
         private string _baseUrl;
         
-
         [SetUp]
         public void SetupTest()
         {
@@ -25,7 +24,7 @@ namespace Smoking_Gun
         [TearDown]
         public void TeardownTest()
         {
-                _driver.Quit();
+            _driver.Quit();
         }
 
         [Test]
