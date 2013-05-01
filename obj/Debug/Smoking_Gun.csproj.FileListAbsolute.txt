@@ -11,3 +11,16 @@ C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Sm
 C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.Properties.Resources.resources
 C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\obj\Debug\Smoking_Gun.csproj.GenerateResource.Cache
 C:\Working\TestSpace-Jon-Airey\Small_UI_Automation_Test\Smoking_Gun\bin\Debug\Smoking_Gun.dll.config
+C:\GitHub\Selenium-Demo\bin\Debug\Smoking_Gun.dll.config
+C:\GitHub\Selenium-Demo\bin\Debug\Smoking_Gun.dll
+C:\GitHub\Selenium-Demo\bin\Debug\Smoking_Gun.pdb
+C:\GitHub\Selenium-Demo\bin\Debug\nunit.framework.dll
+C:\GitHub\Selenium-Demo\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\GitHub\Selenium-Demo\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\GitHub\Selenium-Demo\bin\Debug\WebDriver.dll
+C:\GitHub\Selenium-Demo\bin\Debug\WebDriver.Support.dll
+C:\GitHub\Selenium-Demo\obj\Debug\Smoking_Gun.csprojResolveAssemblyReference.cache
+C:\GitHub\Selenium-Demo\obj\Debug\Smoking_Gun.Properties.Resources.resources
+C:\GitHub\Selenium-Demo\obj\Debug\Smoking_Gun.csproj.GenerateResource.Cache
+C:\GitHub\Selenium-Demo\obj\Debug\Smoking_Gun.dll
+C:\GitHub\Selenium-Demo\obj\Debug\Smoking_Gun.pdb
